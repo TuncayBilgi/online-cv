@@ -1,0 +1,12 @@
+<div class="bg-sky-800 h-1/4 w-fit grid grid-cols-3 place-items-center">
+    <div>
+        <div class="flex flex-row justify-start p-2" *ngFor="let coord of coords">
+            <p class="px-1">{{coord.icon}}</p>
+            <p>{{coord.title}}</p>
+        </div>
+    </div>
+    <div class="flex flex-col items-center p-2">
+        <h1 class="text-6xl py-1 text-white">Tuncay Bilgi</h1>
+        <h2 class="text-2xl text-gray-800">Etudiant Ingénieur</h2>
+    </div>
+</div>
