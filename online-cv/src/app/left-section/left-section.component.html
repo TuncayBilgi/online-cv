@@ -1,0 +1,12 @@
+<div class="">
+    <h2 class="text-sky-800 text-3xl p-2  border-b-white">{{data.title}}</h2>
+    <div *ngFor="let bullet of data.bullets" class="py-2">
+        <div class="flex flex-row justify-start">
+            <img src={{bullet.img}} style="width:10%; height:10%;" class="block m-2 rounded-full" />
+            <h3 class="text-white font-bold text-lg px-4">{{bullet.title}}</h3>
+        </div>
+        
+        
+        <p *ngFor="let des of bullet.desc" class="text-slate-400 text-justify">- {{des}}</p>
+    </div>
+</div>

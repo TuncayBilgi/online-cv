@@ -1,5 +1,8 @@
-<div class='h-screen w-screen grid grid-cols-1 justify-items-center bg-gray-400'>
-    <Header></Header>
+<body class = 'overflow-x-hidden'>
+<div class='p-0 m-0 h-screen w-screen grid grid-rows-4 grid-cols-4 grid-flow-row-dense justify-items-center bg-gray-400'>
+    <Header class="row-span-1 col-span-4"></Header>
+    <LeftBar class="justify-self-start row-span-3 col-span-1 w-full"></LeftBar>
 </div>
+</body>
 
 <router-outlet></router-outlet>
