@@ -14,7 +14,7 @@ export class LeftBarComponent {
 
   Languages = {title : 'Languages', desc :["JavaScript : React, NextJS, Angular, Node-Express, Tailwind","Python : Pytest, Pandas, Seaborn, Matplotlib, Numpy", "Java : Spring", "Bash, PowerShell"],img :'./../../assets/programming.png'};
   Devops = {title : 'DevOps', desc :["Git, Github, Docker, Jenkins"],img :'./../../assets/devops.png'};
-  SoftSkills = {title : 'Soft Skills', desc :["Travail d'équipe, Créativité, Autonomie, Adaptabilité, Rigueur, Communication Orale"],img :'./../../assets/gear.png'};
+  SoftSkills = {title : 'Soft Skills', desc :["Travail d'équipe, Créativité, Autonomie","Adaptabilité, Rigueur, Communication Orale"],img :'./../../assets/gear.png'};
   Français = {title : 'Français',desc:["Langue maternelle"],img :'./../../assets/Flag_of_France.webp'};
   Anglais = {title : 'Anglais', desc :["C1 (avancé) écrit et oral"],img :'./../../assets/Flag_of_the_United_Kingdom.png'};
   Italien = {title : 'Italien', desc :["Débutant"],img :'./../../assets/Flag_of_Italy.png'};

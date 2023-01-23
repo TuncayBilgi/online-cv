@@ -1,0 +1,16 @@
+
+<div class="relative w-full max-w-[75rem] flex items-center justify-center">
+  <img [src]="images[currentIndex]" class="object-contain py-4" alt="..." style = 'height:100%; width:100%;'>
+      <div class="absolute pb-1 inset-y-3/4 p-2 bg-black rounded-lg h-fit w-fit bg-opacity-30 hover:bg-opacity-80" >
+        <p class ="text-white text-xl font-semibold text-justify p-2 " >{{ captions[currentIndex] }} 
+          <a *ngIf="links[currentIndex]" href={{links[currentIndex]}} class="text-white text-xl font-semibold ">➜GO</a>
+        </p>
+      </div>
+    
+    <div class="absolute inset-x-1/6 p-2">
+      <button class="bg-black bg-opacity-30 hover:bg-opacity-80 text-white p-2 rounded-lg h-fit w-fit  text-center " (click)="previous()"><</button>
+    </div>
+    <div class="absolute inset-x-5/6 p-2">
+      <button class="bg-black  bg-opacity-30 hover:bg-opacity-80 text-white p-2 rounded-lg" (click)="next()">></button>
+    </div>
+  </div>
